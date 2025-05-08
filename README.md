@@ -1,69 +1,84 @@
-###🔗 LinkedIn Connection Requester - Chrome Extension
-Automate sending LinkedIn connection requests responsibly
+# 🔗 LinkedIn Connection Requester - Chrome Extension
 
-Chrome Extension
-License
+Automate sending LinkedIn connection requests responsibly.
 
-✨ Features
-✅ Auto-Connect – Detects and clicks all "Connect" buttons on LinkedIn pages.
-✅ Customizable Delay – Set delay (in ms) between requests to avoid rate limits (default: 2000ms).
-✅ Request Limit – Control max requests per session (e.g., 50 requests).
-✅ Real-Time Status – Shows live updates on sent/skipped requests.
-✅ Easy Setup – Works with just one click after installation.
+---
 
-📥 Installation
-Step 1: Download & Unzip
-Download the ZIP file from GitHub.
+## 🧩 Chrome Extension  
+**License:** MIT
 
-Unzip the folder:
+---
 
-Windows: Right-click → Extract All
+## ✨ Features
 
-Mac: Double-click the ZIP file
+- ✅ **Auto-Connect** – Detects and clicks all "Connect" buttons on LinkedIn pages.  
+- ✅ **Customizable Delay** – Set delay (in ms) between requests to avoid rate limits (default: 2000ms).  
+- ✅ **Request Limit** – Control max requests per session (e.g., 50 requests).  
+- ✅ **Real-Time Status** – Shows live updates on sent/skipped requests.  
+- ✅ **Easy Setup** – Works with just one click after installation.
 
-Step 2: Load Extension in Chrome
-Open Chrome and go to:
+![image](https://github.com/user-attachments/assets/d6d46fe3-0d6a-4aec-aa1e-fc17b8a34edb)
 
-chrome://extensions/
-Enable Developer Mode (toggle in top-right).
+---
 
-Click "Load Unpacked" and select the unzipped folder.
+## 📥 Installation
 
-The extension icon (🎯) will appear in your toolbar.
+### Step 1: Download & Unzip
+- Download the ZIP file from GitHub.
+- Unzip the folder:
+  - **Windows**: Right-click → _Extract All_
+  - **Mac**: Double-click the ZIP file
 
-🚀 How to Use
-Open LinkedIn (e.g., "People You May Know" or search results).
+### Step 2: Load Extension in Chrome
+1. Open Chrome and navigate to: `chrome://extensions/`
+2. Enable **Developer Mode** (toggle in top-right).
+3. Click **"Load Unpacked"** and select the unzipped folder.
+4. The extension icon (🎯) will appear in your toolbar.
 
-Click the extension icon in Chrome.
+---
 
-Configure settings:
+## 🚀 How to Use
 
-⏳ Delay between requests (Recommended: 2000–5000ms)
+1. Open LinkedIn (e.g., **"People You May Know"** or search results).
+2. Click the extension icon in Chrome.
+3. Configure settings:
+   - ⏳ **Delay between requests** (Recommended: `2000–5000ms`)
+   - 🔢 **Max requests per run** (e.g., `30–50` to stay safe)
+4. Click **"Send All Connection Requests"** – The extension will start automatically.
+5. Check the popup status for real-time updates.
 
-🔢 Max requests per run (e.g., 30–50 to stay safe)
+---
 
-Click "Send All Connection Requests" – The extension will start automatically.
+## ⚠️ Important Warnings
 
-Check status in the popup for progress updates.
+- 🔴 **Use responsibly!** LinkedIn may suspend accounts for aggressive automation.
+- 🔴 Avoid spammy behavior – Only connect with relevant professionals.
+- 🔒 **Recommended safe settings**:
+  - **Delay**: ≥ `2000ms` (2 seconds)
+  - **Max requests/day**: ≤ `50–100`
 
-⚠️ Important Warnings
-🔴 Use responsibly! LinkedIn may suspend accounts for aggressive automation.
-🔴 Avoid spammy behavior – Only connect with relevant professionals.
-🔴 Recommended settings:
+---
 
-Delay: ≥ 2000ms (2 seconds)
+## 🔧 Troubleshooting
 
-Max requests/day: ≤ 50–100
+| Issue                  | Solution                                                                      |
+|------------------------|-------------------------------------------------------------------------------|
+| Extension not working? | Refresh LinkedIn & ensure you’re on a valid page (e.g., search results).      |
+| Requests not sending?  | Increase delay time (LinkedIn may block rapid requests).                     |
+| Buttons not detected?  | Scroll down to load more profiles.                                            |
 
-🔧 Troubleshooting
-Issue	Solution
-Extension not working?	Refresh LinkedIn & ensure you’re on a valid page (e.g., search results).
-Requests not sending?	Increase delay time (LinkedIn may block rapid requests).
-Buttons not detected?	Scroll down to load more profiles.
-📜 License
-This project is under the MIT License. Use it ethically!
+---
 
-💡 Need Help?
-Open a GitHub Issue or contribute to the project!
+## 📜 License
 
-🚀 Happy Networking!
+This project is licensed under the **MIT License**. Use it ethically!
+
+---
+
+## 💡 Need Help?
+
+- Open a GitHub Issue or contribute to the project!
+
+---
+
+🚀 **Happy Networking!**
